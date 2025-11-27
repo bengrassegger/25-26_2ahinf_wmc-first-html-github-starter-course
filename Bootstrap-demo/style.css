@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(17, 90, 139);
+}
+
+.navbar{
+  color: aliceblue;
+  background-color: rgb(1, 1, 53);
+}
+
+
+.card{
+  
+  gap: 20px;
+  background-color: rgba(25, 194, 194, 0.618);
+  margin: 10px;
+}
+
+.navbar-nav{
+  
+}
+
+

@@ -4,14 +4,15 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Bootstrap Demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Meine Bootstrap Seite</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -45,42 +46,50 @@
         </div>
     </nav>
 
-    <div class="card" style="width: 18rem;">
-        <img src="https://cdn.pixabay.com/photo/2014/03/22/22/17/phone-292994_1280.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">Social Media Schattenseiten</h5>
-            <p class="card-text">Social Media hat viele Schattenseiten wie psychische Belastungen, Datenschutzprobleme,
-                Cybermobbing und die Verbreitung von Falschinformationen.</p>
-            <a href="https://blog.cleverly.de/die-schattenseiten-der-social-media-welt-warum-follower-kein-massstab-fuer-selbstwert-sein-sollten/"
-                class="btn btn-primary">Artikel</a>
-        </div>
-    </div>
-    <div id="carouselExampleIndicators" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-    
 
-</body>
+    <div class="container mt-4">
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="card" style="width: 100%;">
+                    <img src="https://lovingnewyork.de/wp-content/uploads/2022/09/220921085626001_Amaze_Lights_Festival_NYC.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Weihnachtsmarkt New York</h5>
+                        <p class="card-text">Der Weihnachtsmarkt in New York 2025 bietet festliche Stände mit
+                            Geschenken, Kunst und Leckereien.
+                            Im Bryant Park Winter Village gibt es dazu Eislaufmöglichkeiten, Glühwein und eine
+                            gemütliche Weihnachtsstimmung.
+                        </p>
+                        <a href="https://www.newyorkcity.de/weihnachtsmaerkte-in-new-york/"
+                            class="btn btn-primary">Artikel</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://cdn.pixabay.com/photo/2024/11/02/05/13/winter-9168141_1280.jpg"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="..." class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="..." class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
